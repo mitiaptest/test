@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?> 
+<plugin xmlns='http://apache.org/cordova/ns/plugins/1.0' xmlns:android='http://schemas.android.com/apk/res/android' id='com.cocoapods.cordova' version='1.0.0'>
+  <!-- ios -->
+  <platform name='ios'>
+    <framework src='Foundation.framework' autogen='true'/>
+    <header-file src='src/ios/vendor/headers/SEGAmplitudeIntegration.h' autogen='true'/>
+    <header-file src='src/ios/vendor/headers/SEGAppsFlyerIntegration.h' autogen='true'/>
+    <header-file src='src/ios/vendor/headers/SEGApptimizeIntegration.h' autogen='true'/>
+    <header-file src='src/ios/vendor/headers/SEGBugsnagIntegration.h' autogen='true'/>
+    <header-file src='src/ios/vendor/headers/Analytics.h' autogen='true'/>
+    <header-file src='src/ios/vendor/headers/SEGAnalytics.h' autogen='true'/>
+    <header-file src='src/ios/vendor/headers/SEGAnalyticsIntegration.h' autogen='true'/>
+    <header-file src='src/ios/vendor/headers/SEGAnalyticsRequest.h' autogen='true'/>
+    <header-file src='src/ios/vendor/headers/SEGAnalyticsUtils.h' autogen='true'/>
+    <header-file src='src/ios/vendor/headers/SEGEcommerce.h' autogen='true'/>
+    <header-file src='src/ios/vendor/headers/SEGBluetooth.h' autogen='true'/>
+    <header-file src='src/ios/vendor/headers/SEGLocation.h' autogen='true'/>
+    <header-file src='src/ios/vendor/headers/SEGReachability.h' autogen='true'/>
+    <header-file src='src/ios/vendor/headers/SEGAnalyticsIntegrations.h' autogen='true'/>
+    <header-file src='src/ios/vendor/headers/SEGCountlyIntegration.h' autogen='true'/>
+    <header-file src='src/ios/vendor/headers/SEGCrittercismIntegration.h' autogen='true'/>
+    <header-file src='src/ios/vendor/headers/SEGFlurryIntegration.h' autogen='true'/>
+    <header-file src='src/ios/vendor/headers/SEGGoogleAnalyticsIntegration.h' autogen='true'/>
+    <header-file src='src/ios/vendor/headers/SEGKahunaDefines.h' autogen='true'/>
+    <header-file src='src/ios/vendor/headers/SEGKahunaIntegration.h' autogen='true'/>
+    <header-file src='src/ios/vendor/headers/SEGLocalyticsIntegration.h' autogen='true'/>
+    <header-file src='src/ios/vendor/headers/SEGMixpanelIntegration.h' autogen='true'/>
+    <header-file src='src/ios/vendor/headers/SEGMoEngageIntegration.h' autogen='true'/>
+    <header-file src='src/ios/vendor/headers/SEGOptimizelyIntegration.h' autogen='true'/>
+    <header-file src='src/ios/vendor/headers/SEGQuantcastIntegration.h' autogen='true'/>
+    <header-file src='src/ios/vendor/headers/SEGSegmentioIntegration.h' autogen='true'/>
+    <header-file src='src/ios/vendor/headers/SEGTaplyticsIntegration.h' autogen='true'/>
+    <header-file src='src/ios/vendor/headers/SEGTapstreamIntegration.h' autogen='true'/>
+    <header-file src='src/ios/vendor/headers/SEGUXCamIntegration.h' autogen='true'/>
+    <source-file framework='true' src='src/ios/vendor/libAnalytics.a' autogen='true'/>
+  </platform>
+</plugin>
